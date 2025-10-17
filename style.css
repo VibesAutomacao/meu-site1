@@ -1,0 +1,170 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Hotbar (Login) */
+.hotbar {
+  background-color: #222;
+  color: white;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hotbar h1 {
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+}
+
+.login-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.login-form input {
+  padding: 6px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.login-form button {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #00cc6a;
+}
+
+/* Navibar */
+.navbar {
+  background-color: #333;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #00ff88;
+}
+
+/* Seções de produtos */
+.produtos {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  
+}
+
+.produtos h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.produto {
+  display: inline-block;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ddd;
+  margin: 10px;
+  padding: 15px;
+  width: 230px;
+  transition: transform 0.3s ease;
+}
+
+.produto:hover {
+  transform: translateY(-5px);
+}
+
+.produto img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.produto h3 {
+  margin-top: 10px;
+  color: #222;
+}
+
+.produto p {
+  color: #555;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.valor {
+  color: #00b050;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+section {
+  background: transparent;
+}
+
+body {
+  background: linear-gradient(to left, black,gray);
+}
+
+#masculino {
+  background: linear-gradient(to left, black, gray);
+}
+
+#feminino {
+  background: linear-gradient(to left, black,gray);
+}
+
+h2.Sessao {
+  color: white;
+}
