@@ -168,3 +168,73 @@ body {
 h2.Sessao {
   color: white;
 }
+
+
+/* Página de detalhes do produto */
+.produto-detalhe {
+  text-align: center;
+  color: white;
+  padding: 40px;
+  background: linear-gradient(to left, black, gray);
+}
+
+.produto-detalhe img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.produto-detalhe p {
+  color: #eee;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.tabela-tamanhos {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tabela-tamanhos th, .tabela-tamanhos td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  color: black;
+}
+
+.tabela-tamanhos th {
+  background-color: #00cc6a;
+  color: white;
+}
+
+.disponivel {
+  color: green;
+  font-weight: bold;
+}
+
+.indisponivel {
+  color: red;
+  font-weight: bold;
+}
+
+.voltar {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 15px;
+  background-color: #00cc6a;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.voltar:hover {
+  background-color: #009f55;
+}
